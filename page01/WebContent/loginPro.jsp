@@ -42,14 +42,14 @@
 	
 	
 	int success = 0;
-	String homeSite = "home.jsp";
+	String homeSite = "user/home.jsp";
 	
 	if (user != null) {
 		success = 1;
 		
 		session.setAttribute("user", user);
 		
-		if(user.getUserid().equals("admin")) homeSite = "homeAdmin.jsp";
+		if(user.getUserid().equals("admin")) homeSite = "admin/adminHome.jsp";
 
 	}
 	
