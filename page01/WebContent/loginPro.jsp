@@ -1,6 +1,6 @@
 <%@page import="org.apache.tomcat.util.descriptor.web.LoginConfig"%>
 <%@page import="org.apache.catalina.startup.HomesUserDatabase"%>
-<%@page import="beans.Account"%>
+<%@page import="beans.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>

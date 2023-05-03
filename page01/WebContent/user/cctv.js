@@ -35,14 +35,10 @@ for (var i = 0; i < positions.length; i ++) {
     
     // 마커에 클릭이벤트를 등록합니다
     kakao.maps.event.addListener(marker, 'click', function() {
-        // 팝업창 등록
-    var popupWidth = 600;
-    var popupHeight = 400;
-    var popupX = Math.ceil(( window.screen.width - popupWidth )/2);
-    var popupY = Math.ceil(( window.screen.height - popupHeight )/2); 
-    
-    window.open('list.html', 'cctv', 'width=' + popupWidth + ',height=' + popupHeight + ',left='+ popupX + ', top='+ popupY);
-    });   
+        // 페이지 이동
+        window.location.href = 'trash_list.html';
+    });
+
 }
 
 
