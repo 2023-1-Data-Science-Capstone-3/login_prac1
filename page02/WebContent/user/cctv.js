@@ -41,7 +41,7 @@ for (var i = 0; i < positions.length; i ++) {
     var popupX = Math.ceil(( window.screen.width - popupWidth )/2);
     var popupY = Math.ceil(( window.screen.height - popupHeight )/2); 
     
-    window.open('list.html', 'cctv', 'width=' + popupWidth + ',height=' + popupHeight + ',left='+ popupX + ', top='+ popupY);
+    window.open('trash_list.html', 'cctv', 'width=' + popupWidth + ',height=' + popupHeight + ',left='+ popupX + ', top='+ popupY);
     });   
 }
 
