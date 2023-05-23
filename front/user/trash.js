@@ -7,34 +7,9 @@ var positions = [
         content: '<div>서울특별시 구로구 가리봉동 121-30</div>'
     },
     {
-        latlng: new kakao.maps.LatLng(37.483873, 126.886325),
-        imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 88-18</div>'
-    },
-    {
-        latlng: new kakao.maps.LatLng(37.484440, 126.885991),
-        imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 25-51</div>'
-    },
-    {
-        latlng: new kakao.maps.LatLng(37.479118, 126.894832),
-        imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 137-4</div>'
-    },
-    {
-        latlng: new kakao.maps.LatLng(37.482176, 126.886722),
-        imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 121-44</div>'
-    },
-    {
         latlng: new kakao.maps.LatLng(37.480359, 126.891423),
         imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 134-114</div>'
-    },
-    {
-        latlng: new kakao.maps.LatLng(37.480763, 126.891283),
-        imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 가리봉동 131-11</div>'
+        content: '<div style="width: 270px;">서울특별시 구로구 가리봉동 134-114</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.484850, 126.886577),
@@ -44,7 +19,7 @@ var positions = [
     {
         latlng: new kakao.maps.LatLng(37.495065, 126.858047),
         imageSrc: "../image/trash.png",
-        content: '<div>서울특별시 구로구 개봉동 416-146</div>'
+        content: '<div style="width: 260px;">서울특별시 구로구 개봉동 416-146</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.500241, 126.851139),
@@ -53,53 +28,48 @@ var positions = [
     },
     {
         latlng: new kakao.maps.LatLng(37.480161, 126.888695),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 가리봉동 125-16</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.482176, 126.886722),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 가리봉동 121-44</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.484850, 126.886577),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 가리봉동 89-99</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.501568, 126.847162),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 개봉동 492</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.501279, 126.845253),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 개봉동 63-35</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.501074, 126.843823),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 개봉동 60-101</div>'
     },
     {
-        latlng: new kakao.maps.LatLng(37.501039, 126.845496),
-        imageSrc: "../image/recycle.png",
-        content: '<div>서울특별시 구로구 개봉동 66-32</div>'
-    },
-    {
         latlng: new kakao.maps.LatLng(37.499057, 126.851719),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 개봉동 139-61</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.497599, 126.855601),
-        imageSrc: "../image/recycle.png",
+        imageSrc: "../image/money.png",
         content: '<div>서울특별시 구로구 개봉동 156-5</div>'
     },
     {
         latlng: new kakao.maps.LatLng(37.501568, 126.847162),
-        imageSrc: "../image/recycle.png",
-        content: '<div>서울특별시 구로구 개봉동 492</div>'
+        imageSrc: "../image/money.png",
+        content: '<div style="width: 220px;">서울특별시 구로구 개봉동 492</div>'
     },
 ];
  
