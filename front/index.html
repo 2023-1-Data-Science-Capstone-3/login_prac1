@@ -1,18 +1,62 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>쓰-테크</title>
+  <title>Sstake</title>
+  <style>
+    /* 스타일 지정 */
+    *{padding:0;margin:0}
+    ul,ol{list-style:none}
+    a{text-decoration:none;color:#fff;font-size:20px}
+    nav{width:100%;overflow:hidden;height:80px;background-color:#249b47;margin:50px auto}
+
+    #nav2>a {
+    display: block; /* a태그는 글자성격 = inline */
+    float: left;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 80px;
+    padding: 0 30px;
+  }
+  #nav2>ul {
+    float: right;
+  }
+  #nav2>ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 80px;
+  }
+  .center {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+  </style>
 </head>
-
 <body>
-  <button type="button" class="uBtn" onClick="location.href='user/user.html'">
-    사용자
-  </button>
-  <button type="button" class="aBtn" onClick="location.href='admin/admin.html'">
-    관리자
-  </button>
-</body>
+  <nav id="nav2">
+    <a href="#">SStake</a>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="user/map_cctv2.html">Trash</a></li>
+      <li><a href="user/map_trash2.html">Bin</a></li>
+    </ul>
+  </nav>
+  <img src="image\volunteer1.jpg" class="center">
+  <h1>쓰-테크란?</h1>
+  <p>쓰레기 주워서 돈벌자, 쓰-테크는 쓰레기와 제테크의 합성어로, 쓰레기를 활용한 제테크를 돕기 위해 만들어졌습니다.
 
+    쓰-테크는 무단투기 감지 CCTV상에 비춰지는 거리에 버려진 페트병과 캔의 갯수를 보여줍니다. 그리고 페트병과 캔을 통해 인센티브를 받을 수 있는 재활용품 무인회수기의 위치를 함께 알려줍니다.
+  </p>
+  <h2>
+    기대효과
+  </h2>
+  <ul>
+    <li>
+      쓰-테크 이용자인 쓰-테커는 쓰-테크를 이용해 쓰레기 현황을 확인하고, 자발적으로 쓰레기를 주우며 근처 환경 정화에 참여할 수 있습니다.
+    </li>
+    <li>
+      주운 쓰레기를 재활용품 무인회수기에 넣으면 소소한 인센티브까지 챙길 수 있습니다.
+    </li>
+  </ul>
+</body>
 </html>

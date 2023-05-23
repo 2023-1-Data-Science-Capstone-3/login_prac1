@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #e2f3e9;
+}
+
+/* header */
+header {
+	background-color: #5fbb51;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+	color: #fff;
+}
+
+/* main */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.back-btn {
+	background-color: #fff;
+	color: #5fbb51;
+	border: none;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.back-btn:hover {
+	background-color: #5fbb51;
+	color: #fff;
+}
+
+/* table */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	background-color: #5fbb51;
+	color: #fff;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+select-btn {
+	background-color: #5fbb51;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+
+
+
+select-btn:hover {
+	background-color: #459d41;
+}
+
+/* images */
+
+
+table td img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* 예시 */
+}
+
+
+/* links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
